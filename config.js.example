@@ -1,0 +1,16 @@
+// Configuration for Namecheap+Vercel Auto Domain Connector
+module.exports = {
+  // Your Namecheap credentials
+  NAMECHEAP_USERNAME: 'your-username',
+  NAMECHEAP_API_KEY: 'your-api-key',
+  
+  // Your Vercel API key
+  VERCEL_API_KEY: 'your-vercel-api-key',
+  
+  // Domain and project settings
+  DOMAIN: 'yourdomain.com',
+  PROJECT_NAME: 'your-vercel-project-name',
+  
+  // TTL setting (in seconds) - recommended to keep at 60 (1 minute)
+  TTL: 60
+};
