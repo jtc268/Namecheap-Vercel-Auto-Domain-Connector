@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Local config files 
+.env
+connect-domain-local.js
+connect-domain-direct-local.js
+check-dns-local.js
+
+# Actual config file with real credentials
+# User should copy from config.js.example
+config.js
+
+# macOS
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs
+*.log
+npm-debug.log*
