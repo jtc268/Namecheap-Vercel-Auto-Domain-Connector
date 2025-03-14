@@ -1,0 +1,23 @@
+{
+  "name": "namecheap-vercel-auto-domain-connector",
+  "version": "1.0.0",
+  "description": "A tool to automatically connect Namecheap domains to Vercel projects",
+  "main": "connect-domain.js",
+  "scripts": {
+    "connect": "node connect-domain.js",
+    "connect-direct": "node connect-domain-direct.js",
+    "check-dns": "node check-dns.js"
+  },
+  "keywords": [
+    "namecheap",
+    "vercel",
+    "domain",
+    "dns",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.3"
+  }
+}
